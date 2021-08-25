@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "gorestaurant-mobile",
+    "slug": "gorestaurant-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "gorestaurant-mobile"
+}
