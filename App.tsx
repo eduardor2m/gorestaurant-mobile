@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home } from "./src/screens/Home";
+
 import { ThemeProvider } from 'styled-components';
 import AppLoading from 'expo-app-loading';
 
@@ -11,6 +11,7 @@ import {
 } from '@expo-google-fonts/poppins';
 
 import theme from './src/global/styles/theme';
+import { Routes } from './src/routes';
 
 export default function App() {
 
@@ -26,7 +27,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <Routes />
     </ThemeProvider>
   );
 }
